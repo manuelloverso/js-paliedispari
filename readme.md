@@ -2,7 +2,10 @@
 
 ## Palidroma
 
-- Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
+- Chiedere all’utente di inserire una parola
+- Creare una funzione per capire se la parola inserita è palindroma
+  - Salviamo in una variabile la parola scritta al contrario
+  - Verifichiamo se la parola inserita inizialmente è uguale a quella modificata
 
 ## Pari e Dispari
 
