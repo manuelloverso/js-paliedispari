@@ -23,6 +23,8 @@ function evenOrOdd(userChoice, userNumb, computerNumb) {
   return playerWins;
 }
 
+alert(`Il numero del computer è : ${computerNumb}`);
+
 if (evenOrOdd(evenOrOddChoice, userNumb, computerNumb)) {
   alert("Hai Vinto");
 } else {
