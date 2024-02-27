@@ -8,6 +8,7 @@ console.log(computerNumb);
 // Sum the two numbers
 const sum = usernumb + computerNumb;
 
+// Conditions to check who wins
 if (sum % 2 == 0 && evenOrOdd == "pari") {
   console.log("You win");
 } else if (sum % 2 == 0 && evenOrOdd == "dispari") {

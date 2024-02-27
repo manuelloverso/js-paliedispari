@@ -4,6 +4,11 @@
 
 const word = prompt("Inserisci una parola per verificare se sia palindroma");
 
+/**
+ * Check if the word is palindrome
+ * @param {string} word
+ * @returns {boolean}
+ */
 function palindromeCheck(word) {
   //Split the stringo into an array
   const wordSplit = word.split("");
@@ -18,10 +23,14 @@ function palindromeCheck(word) {
   console.log(reversedWord);
 
   if (word == reversedWord) {
-    return alert("la parola inserita è palindroma");
+    return true;
   } else {
-    return alert("La parola inserita NON è palindroma");
+    return false;
   }
 }
 
-palindromeCheck(word);
+if (palindromeCheck(word)) {
+  alert("La parola inserita è palindroma");
+} else {
+  alert("La parola inserita NON è palindroma");
+}
